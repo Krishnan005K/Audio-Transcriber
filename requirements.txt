@@ -1,0 +1,6 @@
+flask
+whisper
+torch
+torchaudio
+torchvision
+ffmpeg
