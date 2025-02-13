@@ -1,6 +1,6 @@
 flask
-whisper
 torch
 torchaudio
 torchvision
 ffmpeg
+git+https://github.com/openai/whisper.git
