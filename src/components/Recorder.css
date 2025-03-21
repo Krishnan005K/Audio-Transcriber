@@ -1,0 +1,39 @@
+.recorder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .record-btn {
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: #28a745;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .record-btn.stop {
+    background-color: #dc3545;
+  }
+  
+  .audio-player {
+    margin-top: 1rem;
+  }
+  
+  .transcription-container {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .transcription-heading {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
